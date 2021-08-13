@@ -33,7 +33,7 @@ function conection(status) {
      return 'Online'
    } if (status === 2) {
      return 'Away'
-   } else (status !== 1 && status !== 2)
+   } else
    return 'Offline'
 }
 
